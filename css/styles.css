@@ -30,6 +30,8 @@ nav {
   position: fixed; 
   top: 0; 
   width: 100%; 
+  border-bottom:#f2f2f2 2px solid;
+
   
 }
 
@@ -73,12 +75,16 @@ ul.topnav {
   margin-left: 10px;
 }
 
+header img {
+  width: 100%;
+  height: auto;
+}
 
 .frontend {
   text-align: center;
-  font-size: 3rem;
+  font-size: 2rem;
   margin: 0;
-  margin-top: 30px;
+  margin-top: 40px;
   background: -webkit-linear-gradient(#eee, #333);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -98,7 +104,7 @@ ul.topnav {
 header, main, section {
   margin-top: 40px;
  
-  padding: 10px;   
+    
 }
 
 /*#about {
@@ -155,8 +161,7 @@ form  {
     display: block;
     width: 100%;
     text-align: center;
-    margin-left: 10px;
-    margin-right: 10px
+    
   }
   nav #logo h2 {
     display: inline-block;
