@@ -1,0 +1,186 @@
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  color: #202020;
+  background-color: #F6F6F6;
+  padding:0;
+  margin:0;
+}
+
+
+.container {
+  width:70%;
+  margin: auto;
+  background: #f2f2f2;
+  overflow: hidden;
+
+}
+
+#top {
+  background-color: #000000;
+}
+
+nav {
+  background: #000000;
+  color:#ffffff;
+  padding-top:0px;
+  min-height:70px;
+  overflow: hidden;
+  position: fixed; 
+  top: 0; 
+  width: 100%; 
+  
+}
+
+nav a {
+  color:#ffffff;
+  text-decoration:none;
+  text-transform: uppercase;
+  font-size:16px;
+  
+}
+
+nav li{
+  float:left;
+  display:inline;
+  padding: 0 20px 0 20px;
+}
+
+nav #logo{
+  float:left;
+  font size: 2em;
+}
+
+nav #branding h2{
+  margin:0;
+}
+
+ul.topnav {
+  float:right;
+  margin-top:25px; 
+}
+
+#logo {
+  float: left;
+  display: inline-flex; 
+}
+
+#logo a img {
+  height: 25px;
+  width: 25px;
+  margin-top: 25px;
+  margin-left: 10px;
+}
+
+
+.frontend {
+  text-align: center;
+  font-size: 300%;
+  margin: 0;
+  margin-top: 30px;
+  background: -webkit-linear-gradient(#eee, #333);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.about h4 {
+  font-weight:400;
+  margin: 10px 30px;
+}
+
+.row {
+		margin-top: 20px;
+		display: flex;
+}
+
+
+header, main, section {
+  margin-top: 40px;
+ 
+  padding: 10px;   
+}
+
+/*#about {
+  
+  max-width: 100%;
+  margin: 50px auto;	
+}*/
+
+
+
+.skills {
+  display: flex-wrap;
+  text-align: center;
+
+  
+}
+
+main img {
+  margin: 10px;
+  max-width: 20%;
+  height: auto;
+}
+
+
+form  {
+  text-align: center;
+  margin-left: 150px;
+  margin-right: 150px;
+ 
+
+}
+.contact {
+  margin: 10px 20px;
+}
+.contact-icons {
+ margin: auto;
+ text-align: center;
+}
+.contact-icons img {
+  max-width: 15%;
+  height: auto;
+  
+}
+/* Media Queries */
+@media(max-width: 800px){
+  
+  nav #logo {
+    display: block;
+    width: 100%;
+    text-align: center;
+    float: none;
+  }
+  nav #logo h2 {
+    display: inline-block;
+    
+  }
+  
+  ul.topnav,
+  #menu{
+    float: none;
+    height: 30px;
+    margin: 0 auto;
+    padding: 0;
+    text-align: center;
+    display: flex;
+    
+  }
+
+  #about {
+    margin-top: 70px;
+    width: 100%;
+  }
+  
+  .row {
+    display: block;
+  }
+  
+  form {
+    margin: auto;
+  }
+  
+}
+  
+  
+  
