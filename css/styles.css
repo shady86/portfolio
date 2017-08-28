@@ -49,6 +49,8 @@ nav li{
   padding: 0 20px 0 20px;
 }
 
+ul.topnav li a:hover {background-color: grey;}
+
 nav #logo{
   float:left;
   font size: 2em;
